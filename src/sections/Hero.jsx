@@ -55,8 +55,8 @@ const Hero = () => {
                                 // position={[x.positionX, x.positionY, x.positionZ]}
                                 // rotation={[x.rotationX, x.rotationY, x.rotationZ]}
                                 // scale={[x.scale, x.scale, x.scale]}
-                                scale={sizes.deskScale} 
-                                position={sizes.deskPosition} 
+                                scale={sizes.deskScale}
+                                position={sizes.deskPosition}
                                 rotation={[0.1, -Math.PI, 0]} />
                         </HeroCamera>
 
@@ -73,8 +73,8 @@ const Hero = () => {
                 </Canvas>
             </div>
 
-            <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-                <a href="mailto:rasyarazaqasetiawan@gmail.com?subject=Let's Work Together&body=Hi Rasya, I'm interested in working with you." className="w-fit">
+            <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space flex justify-center">
+                <a href="mailto:rasyarazaqasetiawan@gmail.com?subject=Let's Work Together&body=Hi Rasya, I'm interested in working with you." className="inline-block p-8">
                     <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
